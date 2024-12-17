@@ -3,7 +3,7 @@
 # The SNI value that will be used for all domains.
 # Some sites like nordvpn.com check to make sure this
 # is a valid domain.
-default_sni: google.com
+default_sni: baidu.com
 
 # All root domains that will be replaced with the default SNI above.
 # This also includes CDN domains that sites sometimes use outside of their
@@ -14,11 +14,16 @@ domains:
   - expressvpn.com # Not working | AWS Cloudfront blocks all domain fronting
   - ipvanish.com # Not working | Cloudflare
 
+
+
+
+  - youtube.com
   # news / information
   - dw.com
   - jinpanel.com
   - wikileaks.com
   - wikileaks.org
+  - wikipedia.org
 
   # social media
   - twitter.com # not normally blocked, but just in case

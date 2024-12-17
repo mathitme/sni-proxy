@@ -1,0 +1,30 @@
+{
+  "domains": [
+  "wikipedia.org", 
+  "wikimedia",
+  "pornhub.com",
+  "wikileaks.org",
+  "github.com",
+  "xvideos.com",
+  "external-content.duckduckgo.com",
+  "docker.com",
+  "instagram",
+  "duckduckgo.com"
+],
+  "delicate_domains": [
+    "xhamster.com",
+    "e-hentai.org"
+],
+  "default_sni": "baidu.com",
+  "googles": [
+  "google.com",
+  "google.md",
+  "youtube.com",
+  "gstatic.com",
+  "ggpht.com",
+  "youtube-nocookie.com",
+  "ytimg.com",
+  "blogger.com"
+  ]
+}
+
